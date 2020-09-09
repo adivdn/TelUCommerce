@@ -1,0 +1,36 @@
+body{
+	background: #E5E5E5;
+}
+.container{
+	
+	width: 25%;
+	margin-top:10%;
+	padding: 50px;
+    padding-bottom: 120px;
+	background: #FFFFFF; 
+	border-radius: 35px;
+
+}
+.btn-danger {
+	margin-top: 20px;
+    color: #fff;
+    background: radial-gradient(100% 2295.89% at 27.96% 100%, #DE5D5D 0%, rgba(222, 93, 93, 0.9) 96.35%, rgba(222, 93, 93, 0) 100%);
+    border : none;
+    border-radius: 20px;
+}
+
+button{
+	width: 100%;
+}
+
+input.form-control {
+    background: #C4C4C4;
+}
+
+.icon-close{
+	position: absolute;
+	float: right;
+	top: 30px;
+	right: 20px;
+
+}

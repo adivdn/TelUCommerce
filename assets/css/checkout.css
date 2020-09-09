@@ -1,0 +1,285 @@
+html,
+body {
+
+	font-family: 'Roboto';
+	font-size: 18px;
+
+}
+
+/*first header*/
+.active .nav-link {
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.main-header a.nav-link {
+    color: white;
+}
+
+.cart-btn{
+	position: relative;
+	cursor: pointer;
+}
+
+.cart-items {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    background: #5E92E1;
+    padding: 0 5px;
+    border-radius: 30%;
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+.like-btn{
+	position: relative;
+	cursor: pointer;
+}
+
+.like-items {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    background: #5E92E1;
+    padding: 0 5px;
+    border-radius: 30%;
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+.navbar-nav a.nav-link:hover{
+    border-bottom: 1px solid #FFFFFF;
+}
+
+/*second header*/
+
+.input-group-append {
+    margin-left: 0px;
+}
+
+button.btn.btn-outline-secondary.border-left-0.border {
+    background: rgba(0, 0, 0, 0.41);
+}
+
+input#example-search-input {
+    background: rgba(0, 0, 0, 0.41);
+    text-align: right;
+    color: #FFFFFF;
+
+}
+
+input#example-search-input:focus{
+    background: rgba(0, 0, 0, 0.41);
+    text-align: right;
+    color: #FFFFFF;
+}
+.btn-search i.fa.fa-search {
+    color: white;
+}
+
+.main-second-header a.nav-link {
+    color: #000000;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 13px;
+    height: 11px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.suka a i.fa.fa-heart-o{
+    position: absolute;
+    top: -187px;
+    right: 5px;
+    color: black;
+}
+
+.keranjang a i.fa.fa-shopping-cart{
+    position: absolute;
+    right: 165px;
+    top: -187px;
+    color: black;
+}
+
+/* CART PAGE */
+
+
+.col-lg-6.container-images {
+    padding: 30px;
+    background: #CC5252;
+}
+.products-container{
+   
+    color: white;
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.modal-content {
+    background: #CC5252;
+    color: white;
+}
+
+.products-container ion-icon{
+    font-size: 25px;
+    color:#523939;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product-header{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+.product-title{
+    width: 45%;
+}
+
+.price{
+    width: 15%;
+    display: flex;
+    border-bottom: 2px solid white;
+    align-items: center;
+}
+
+.quantity {
+    width: 25%;
+    display: flex;
+    border-bottom: 2px solid white;
+    align-items: center;
+
+}
+
+.total {
+    width: 15%;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+
+}
+
+.product{
+    border-bottom: 2px solid white;
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    
+
+}
+.product-title{
+    border-bottom: 2px solid white;
+}
+
+.product ion-icon{
+    cursor: pointer;
+}
+
+.products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products img{
+    width: 75px;
+}
+
+.basketTotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+.basketTotalTitle{
+    width: 30%;
+}
+
+.product{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid white;
+
+}
+
+
+
+/* footer */
+li a{
+    color: white;
+    text-align: left;
+}
+
+ul li{
+    list-style: none;
+}
+
+.footer-bottom-text{
+    text-align: center;
+    background: #C4C4C4;
+    line-height: 50px;
+}
+
+
+select {
+    background: #24232F;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    
+}
+
+input.form-control {
+    background: #24232F;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-radius: 0px;
+    border-bottom: 1px solid white;
+}
+
+input.form-control:focus {
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-radius: 0px;
+    outline: none;
+}
+
+.title-payment {
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+.col-sm-6.p-0 {
+    background: #24232F;
+    color: white;
+}
+
+.kuning:hover{
+    background: #a5971d;
+}

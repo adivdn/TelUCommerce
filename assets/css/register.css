@@ -1,0 +1,81 @@
+body{
+	background: #E5E5E5;
+	line-height: 1;
+
+	font-family: Roboto;
+}
+.container {
+    width: 60%;
+    margin-top: 5%;
+    padding: 5px;
+    padding-bottom: 11px;
+    background: #FFFFFF;
+    border-radius: 35px;
+}
+.card{
+	border-radius: 0;
+	border: 0;
+}
+
+.card > .card-header{
+	background: transparent;
+	    border: none;
+}
+
+.form-control{
+	border-radius: 0;
+	border: 2px solid #FFBBBB;
+}
+
+.form-control:focus{
+	box-shadow: none;
+
+}
+
+.card-header h4{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 47px;
+	display: block;
+
+	color: #000000;
+}
+
+.icon-close{
+	position: absolute;
+	float: right;
+	top: 30px;
+	right: 20px;
+
+}
+
+.img-fluid {
+    /* height: auto; */
+    position: absolute;
+    /* width: 904px; */
+    height: 505px;
+    /* left: 149px; */
+    top: 0px;
+}
+
+.btn-danger {
+	margin-top: 20px;
+    color: #fff;
+    background: radial-gradient(100% 2295.89% at 27.96% 100%, #DE5D5D 0%, rgba(222, 93, 93, 0.9) 96.35%, rgba(222, 93, 93, 0) 100%);
+    border : none;
+    border-radius: 20px;
+}
+
+button{
+	width: 100%;
+}
+
+
+i.fa.fa-question-circle-o {
+    float: right;
+    margin-right: 224px;
+    margin-top: -2px;
+}
+
